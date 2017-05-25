@@ -1,0 +1,25 @@
+<resources>
+    <string name="user">user</string>
+    <string name="password">password</string>
+    <string name="message_Alert">When te button is disabled the app show all the fields of acid_base, if the button is enabled only seeing the events</string>
+    <string name="switchMessage">Show only Events Registry</string>
+    <string name="cancel">CANCEL</string>
+    <string name="save">SAVE</string>
+    <string name="Incomplete_fields">Please, complete all the fields.</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="connect_server">Connect to the server</string>
+    <string name="no_change">No, Change the connection</string>
+    <string name="yes_connect">Yes, Connect to the server</string>
+
+    <string name="info_connection">The data will send to the network for connect to the server</string>
+    <string name="connect">CONNECT</string>
+    <string name="main">MAIN</string>
+
+    
+    <string name="app_name">SnortDroid</string>
+    <string name="SnortDroid_descripcion">SnortDroid droid is an application open source, for the visualization of the events registered in MYSQL that belongs to Acid_event in Snort</string>
+    <string name="Contact">Contact: sipintadore@outlook.com</string>
+    <string name="developer">Developer: Simon Pintado Reyes</string>
+
+</resources>

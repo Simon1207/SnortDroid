@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.simonpintado.snortdroid.MainActivity">
+
+    <EditText
+        android:id="@+id/edithost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editcode"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editcode"
+        android:layout_marginTop="59dp"
+        android:ems="10"
+        android:hint="Host:"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/editcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnConectar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="138dp"
+
+        android:ems="10"
+        android:hint="Contraseña BD"
+        android:password="true"
+        android:text="123456789" />
+
+    <Button
+        android:id="@+id/btnConectar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/connect"
+        android:background="@color/colorAccent"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true" />
+
+    <EditText
+        android:id="@+id/editUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editcode"
+        android:layout_alignLeft="@+id/editcode"
+        android:layout_alignStart="@+id/editcode"
+        android:layout_marginBottom="49dp"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edithost"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@+id/edithost"
+        android:layout_toRightOf="@+id/edithost"
+        app:srcCompat="@drawable/base" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/user"
+        android:layout_alignBottom="@+id/editUser"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editcode"
+        android:layout_alignEnd="@+id/imageView2"
+        android:layout_alignRight="@+id/imageView2"
+        app:srcCompat="@drawable/password" />
+</RelativeLayout>

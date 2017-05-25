@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SnortDroid</string>
+    <string name="Contact">Contacto: sipintadore@outlook.com</string>
+    <string name="Incomplete_fields">Por favor, complete todos los campos</string>
+    <string name="SnortDroid_descripcion">SnortDroid es una aplicación de codigo libre, para la vizualización de los eventos registrados en MYSQL que pertenecen a Acid Event en Snort IDS</string>
+    <string name="about">"Acerca "</string>
+    <string name="cancel">Cancelar</string>
+    <string name="connect">Conectar</string>
+    <string name="connect_server">Conectar al servidor</string>
+    <string name="message_Alert">Cuando el boton esta desactivado la aplicación muestra todos los campos de Acid Base, si el boton es habilitado solo se veran los eventos</string>
+    <string name="main">Inicio</string>
+    <string name="info_connection">La información sera enviada a la red para conectar al servidor</string>
+    <string name="no_change">No, cambiar la conexión</string>
+    <string name="password">contraseña</string>
+    <string name="save">Guardar</string>
+    <string name="settings">Configuración</string>
+    <string name="switchMessage">Mostrar solo registro de eventos</string>
+    <string name="user">Usuario</string>
+    <string name="yes_connect">Si, conectar al servidor</string>
+    <string name="developer">Desarrollador: Simón Pintado Reyes</string>
+</resources>
